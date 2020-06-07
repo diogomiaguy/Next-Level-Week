@@ -4,7 +4,7 @@ semana Next-Level-Week Rocketseat
 
 O **Ecoleta** é um projeto (aplicação web) construído no **Starter**, parte da semana **Next Level Week** 
 
-A aplicação basea-se em um marketplace de coleta de resíduos, onde pessoas físicas e/ou jurídicas poderão cadastrar e/ou encontrar pontos de coleta em qualquer lugar do Brasil.
+A aplicação basea-se em um marketplace de coleta de resíduos, onde pessoas poderão cadastrar e/ou encontrar pontos de coleta em qualquer lugar do Brasil.
 
 Bibliotecas e tecnologias utilizadas:
 - HTML;
@@ -33,10 +33,11 @@ Na aula 4, foi dia de começar a entender na prática como funciona o back-end. 
 
 
 ## **5ª Aula**
-E para finalizar o projeto, importamos a dependência do SQLite para nossa aplicação e fizemos toda a configuração do db (banco de dados).
+E para finalizar o projeto, importamos a dependência do SQLite3 para nossa aplicação e fizemos toda a configuração do db (banco de dados).
 
 
-![quem_ministrou](https://user-images.githubusercontent.com/62728109/83679095-35e3b300-a5b5-11ea-940f-dc15b1e3e9bc.png)
  **Quem ministrou as aulas?**
 
 As aulas foram ministradas pelo [Mayk Brito](https://github.com/maykbrito) da [Rocketseat](https://rocketseat.com.br/)
+
+Obrigado a todos da equipe [Rocketseat](https://rocketseat.com.br/) pela oportunidade!!
