@@ -1,5 +1,5 @@
-# Next-Level-Week-
-semana Next-Level-Week Rocketseat
+# Next-Level-Week
+Semana Next-Level-Week Rocketseat
 
 
 O **Ecoleta** é um projeto (aplicação web) construído no **Starter**, parte da semana **Next Level Week** 
