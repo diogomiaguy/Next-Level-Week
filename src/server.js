@@ -41,7 +41,7 @@ server.post("/savepoint", (req, res) => {
 
     // inserir dados no banco de dados
     const query = `
-        INSERT INTO places (
+        INSERT INT places (
             image,
             name,
             address,
@@ -65,7 +65,11 @@ server.post("/savepoint", (req, res) => {
     function afterInsertData(err) {
         if(err) {
             console.log(err)
-            return res.send("Erro no cadastro!")
+            // return res.send("Erro no cadastro!")
+            return res.render("create-point.html", {
+                msgErro: "Oops! Houve um erro no cadastro.",
+                notsaved: true
+            })
         }
 
         console.log("Cadastrado com sucesso")
@@ -73,7 +77,6 @@ server.post("/savepoint", (req, res) => {
 
         return res.render("create-point.html", {saved: true})
     }
-
     db.run(query, values, afterInsertData)
 
 })

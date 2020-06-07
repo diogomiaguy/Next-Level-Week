@@ -47,6 +47,11 @@ form {
 form h1 {
     font-size: 36px;
 }
+form .msgErro {
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+}
 
 form fieldset {
     margin-top: 64px;
